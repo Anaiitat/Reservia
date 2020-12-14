@@ -1,0 +1,66 @@
+@media all and (max-width:1415px) and (min-width:940px)
+{
+
+#menu
+{
+    flex-direction: column;
+}
+
+.menu
+{
+    justify-content: center;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.menu_bouton:hover
+{
+    border-top: 0px;
+}
+
+.filtre:hover
+{
+    transform: none;
+}
+
+#hébergement_populaire
+{
+    justify-content: center;
+}
+
+#hébergement
+{
+    order: 2;
+    margin-top:20px;
+    width: 1000px;
+}
+
+#populaire
+{
+    order: 1;
+}
+.main
+{
+max-width: 800px;
+}
+
+
+#activité
+{
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.activité
+{
+   padding-left: 50px;
+}
+
+
+footer ul
+{
+    margin-right: 130px;
+}
+
+
+}

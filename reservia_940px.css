@@ -1,0 +1,102 @@
+@media all and (max-width:940px) and (min-width:600px)
+{
+
+    #menu
+    {
+        flex-direction: column;
+    }
+    
+    .menu
+    {
+        justify-content: center;
+        padding-right: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .menu_bouton:hover
+    {
+        border-top: 0px;
+    }
+    
+    .filtre:hover
+    {
+        transform: none;
+    }
+.filtres
+{
+    display: none;
+}
+
+.filtres_mobile
+{
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 900;
+    margin-left: 4px;
+}
+
+#filtres
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -3%;
+    margin-top: 1%;
+}
+
+.filtre
+{
+    margin-bottom:2%;
+}
+
+#hébergement_populaire
+{
+    justify-content: center;
+}
+
+#hébergement
+{
+    order: 2;
+    margin-top:20px;
+    width: 1000px;
+}
+
+#populaire
+{
+    order: 1;
+    width: 500px;
+}
+
+#activité
+{
+    justify-content: center;
+}
+
+.activité
+{
+   padding-left: 20px;
+}
+
+footer ul
+{
+    margin-right:70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
